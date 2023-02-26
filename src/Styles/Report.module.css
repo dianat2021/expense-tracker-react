@@ -1,0 +1,19 @@
+
+.report-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  gap: 40px;
+  margin-top: 1%;
+}
+.report-elements{
+    width: 35%;
+    flex-basis: 40%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.report-elements p {
+  margin: 0;
+}

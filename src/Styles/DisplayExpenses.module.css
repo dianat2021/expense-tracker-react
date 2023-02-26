@@ -1,0 +1,26 @@
+h3{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    border: 2px solid wheat;
+
+}
+.list-header{
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.expense{
+    flex-basis: 50%;
+    border: 2px solid black;
+}
+.price{
+    flex-basis: 15%;
+    border: 2px solid black;
+}
+.date{
+    flex-basis: 20%;
+    border: 2px solid black;
+}

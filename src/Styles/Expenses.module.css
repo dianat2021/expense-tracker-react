@@ -1,0 +1,21 @@
+.container{
+
+}
+.expense-label, .expense-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.add{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
