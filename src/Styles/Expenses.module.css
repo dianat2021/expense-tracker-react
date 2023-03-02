@@ -1,6 +1,4 @@
-.container{
 
-}
 .expense-label, .expense-input{
     display: flex;
     flex-direction: column;
@@ -18,4 +16,15 @@
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #4B4453;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.add:hover{
+    opacity: 0.9;
 }

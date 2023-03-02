@@ -1,18 +1,25 @@
+.container{
+  display: block;
+  align-items: center;
+}
 
 .report-container {
   display: flex;
+  height: 80px;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   gap: 40px;
-  margin-top: 1%;
+  /* margin-top: 1%; */
+  font-weight: bold;
 }
 .report-elements{
-    width: 35%;
-    flex-basis: 40%;
+    flex-basis: 15%;
+    height: 80%;
     text-align: center;
-    border: 2px solid black;
     border-radius: 5px;
+    background-color: var(--componentsColor);
+    padding: 5px 5px;
 }
 .report-elements p {
   margin: 0;

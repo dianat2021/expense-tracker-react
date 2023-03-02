@@ -1,26 +1,77 @@
 h3{
     text-align: center;
 }
-ul{
-    list-style: none;
-    border: 2px solid wheat;
-
+ol{
+    padding: 0%;
+    padding: 0 5px;
 }
 .list-header{
-    border: 2px solid black;
-    margin: 0 auto;
+    background-color: #D5CABD;
+    height: 40px;
+    margin-bottom: 3px;
     display: flex;
+    align-items: center;
     text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 .expense{
     flex-basis: 50%;
-    border: 2px solid black;
+    padding: 0 3px;
+    
 }
 .price{
     flex-basis: 15%;
-    border: 2px solid black;
 }
 .date{
-    flex-basis: 20%;
-    border: 2px solid black;
+    flex-basis: 25%;
+}
+.action{
+    flex-basis: 15%;
+}
+.expenses-list{
+    margin: 0 auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(147, 176, 229);
+    /* border-bottom: 2px solid black; */
+    padding: 0 3px;
+    /* border-radius: 3px; */
+}
+.expenses-list:nth-child(odd){
+    background-color: cornflowerblue;
+}
+.expenseTitle{
+    flex-basis: 50%;
+    border-right: 2px solid black;
+}
+.expensePrice{
+    flex-basis: 15%;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.expenseDate{
+    flex-basis: 25%;
+    text-align: center;
+}
+.DeleteIcon{
+    margin: 0 auto;
+    flex-basis: 15%;
+    height: 25px;
+    cursor: pointer;
+    cursor: pointer;
+    background-color: #4B4453;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.DeleteIcon:hover{
+    opacity: 0.9;
+}
+.noExpense{
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
 }
